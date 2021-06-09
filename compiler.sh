@@ -30,7 +30,7 @@ case "$1" in
         shift
         ;;&
     -h)
-        echo "Usage: ${0##*/} [-version latest $COMPILER_EXEC -o hello hello.c]"
+        echo "Usage: ${0##*/} [-version latest $COMPILER_EXEC -v]"
         exit 1
         ;;
 esac

@@ -20,8 +20,8 @@
 #//////////////////////////////////////////////////////////////
 
 TAG_VERSION=latest
-DOCKER_IMAGE=bensuperpc/<<IMAGE_NAME>>
-COMPILER_EXEC=<<IMAGE_NAME>>
+DOCKER_IMAGE=bensuperpc/brainfuck-tritium
+COMPILER_EXEC=brainfuck-tritium
 
 case "$1" in
     -version|-v)
